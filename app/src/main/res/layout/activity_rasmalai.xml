@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RASMALAI">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fillViewport="true"
+        android:textAlignment="center"
+        android:textDirection="firstStrongRtl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="true"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/bi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="25dp"
+                android:accessibilityLiveRegion="none"
+                app:srcCompat="@drawable/play_store_512" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RASMALAI "
+                android:textAlignment="center"
+                android:textColor="@color/purple_200"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ingridients"
+                android:textColor="@color/teal_700"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. 1/2 tinNestlé MILKMAID\n 2. 4 cups, (600 ml)Nestlé a+ Nourish Milk\n 3. 300 gm, well mashedPaneer\n 4. 8-10 strandsSaffron\n 5. 1/2 tspCardamom Powder\n 6. 10-12, choppedPistachios\n 7. 1 literWater\n 8. 2 cups (300 gm)Sugar\n "
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="INSTRUCTIONS"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Further mash paneer with hand for at least 6 minutes to make smooth dough.\n 2. Alongside take a pan add sugar and water together and bring to boil to make syrup for cooking rasmalai.\n 3. Make small balls of paneer dough and flatten, add into boiling sugar syrup, cover and cook for 10 minutes on medium heat. Remove and keep aside to cool.\n 4. In another pan pour in the Nestlé a+ milk and Nestlé MILKMAID, bring to boil and reduce to half. Turn of the flame, add saffron and cardamom powder and mix well. Allow to cool.\n 5. Take out the Rasgullas from sugar syrup squeeze gently to remove the sugar syrup and put them into saffron ras\n 6. Garnished with chopped pistachio and serve chilled.\n "
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Equipment"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/te"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="watch vedio "
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="34sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                app:autoPlay="true"
+                app:videoId="mukKEnbKxXs" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nutritions"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/nu"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MecdakChurch">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:showDividers="end">
+
+            <ImageView
+                android:id="@+id/ci1"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+
+            <Button
+                android:id="@+id/cbi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="onbvh"
+                android:text="Gulab Jaamun" />
+
+            <ImageView
+                android:id="@+id/ci2"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+
+            <Button
+                android:id="@+id/p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="pan"
+                android:text="RASMALAI" />
+            <ImageView
+                android:id="@+id/ci3"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+
+            <Button
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="mts"
+                android:text="ARISELU" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gulab">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fillViewport="true"
+        android:textAlignment="center"
+        android:textDirection="firstStrongRtl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:baselineAligned="true"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/bi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="25dp"
+                android:accessibilityLiveRegion="none"
+                app:srcCompat="@drawable/play_store_512" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gulab Jaamun"
+                android:textAlignment="center"
+                android:textColor="@color/purple_200"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ingridients"
+                android:textColor="@color/teal_700"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/bu"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="INSTRUCTIONS"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Prepare the dough\n    In a mixing bowl, add the milk powder, all-purpose flour, baking powder and ghee.\n    Slowly add the milk, 1 tablespoon at a time, and gently form the dough by mixing.\n     It should be a stiff dough. If the dough is sticky, grease your palms with oil and gently mix. Do not knead the dough—it will make the jamuns hard.\n  2. When it’s ready, remove the syrup from the heat and add the rose essence or rose water. Set aside.\n  3. Roll the jamuns Grease your palms and pinch a small amount of dough. Roll gently to form a small, smooth ball—to give you an idea of the size, I make about 20 jamuns using this recipe.  4. Fry the jamuns .In a heavy saucepan or Dutch oven, heat a few inches of oil over low heat.\n  5. The oil should not be very hot while frying the gulab jamuns. To test the oil, drop in a small piece of the dough. It will sink initially, but after 30 seconds or so, it will float up, and the color should not change. That’s the right temperature.\n    slowly drop in 4 to 5 balls, depending on the pan size, and deep-fry the jamuns until they turn golden brown. Using a slotted spoon, keep rotating them in the oil for even cooking and coloring. It takes me 4 to 5 minutes for each batch. Do not rush the frying process!\n    When the jamuns are golden brown, use a slotted spoon to remove them from the oil and drain on paper towels.\n  6. Add jamuns to the sugar syrup Let each jamun sit for 45 to 60 seconds, and then add the fried jamuns to the warm sugar syrup.\n  7. Repeat with the next batch of jamuns, frying them and then adding them to the sugar syrup. Let the jamuns soak in the sugar syrup for at least 2 hours. Overnight soaking is fine\n  "
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Equipment"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/te"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="watch vedio "
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="34sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                app:autoPlay="true"
+                app:videoId="zO_EiY7up08" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nutritions"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/nu"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

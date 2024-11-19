@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/drawable/btn_bg.xml" value="0.1296875" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_ariselu.xml" value="0.19011082693947143" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_badam.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_basara.xml" value="0.12924120913016657" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_bhel.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_birla_mandir.xml" value="0.2" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_bread.xml" value="0.1" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_briyani.xml" value="0.1620817843866171" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_charminar.xml" value="0.152" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_chiken.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_dosa.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_golconda.xml" value="0.176" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_gulab.xml" value="0.19011082693947143" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_idly.xml" value="0.1604120676968359" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_load.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_loadingp.xml" value="0.1" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_main2.xml" value="0.152" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_mallela_theertham.xml" value="0.12392331203111975" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_mecdak_church.xml" value="0.13060029282576865" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_paneer.xml" value="0.1" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_papikondalu.xml" value="0.2" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_pochampally_village.xml" value="0.2287179487179487" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_pota.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_potato.xml" value="0.1" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_rasmalai.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_res.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_roti.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_tomato.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/s kiran babu/AndroidStudioProjects/TouristGuide2/app/src/main/res/layout/activity_turistplaces.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

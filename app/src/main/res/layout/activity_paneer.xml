@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paneer">
+<ScrollView
+android:id="@+id/scrollView2"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_marginStart="10dp"
+android:layout_marginTop="20dp"
+android:layout_marginEnd="10dp"
+android:fillViewport="true"
+android:textAlignment="center"
+android:textDirection="firstStrongRtl"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:ignore="SpeakableTextPresentCheck">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/bi1"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginEnd="25dp"
+        android:accessibilityLiveRegion="none"
+        app:srcCompat="@drawable/play_store_512" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shahi paneer"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ingridients"
+        android:textColor="@color/teal_700"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pii"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="INSTRUCTIONS"
+        android:textColor="@color/teal_200"
+        android:textSize="34sp"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/piii"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equipment"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/bee"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="watch vedio "
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="34sp" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        app:autoPlay="true"
+        app:videoId="8Fw_zWPbGog" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutritions"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/nu"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+</LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
